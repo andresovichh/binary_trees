@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_leaf - checks if node is root
+ * binary_tree_depth - checks if node is root
  * @tree: pointer to the root node to traverse from
  * Return: the height of the tree
  */
