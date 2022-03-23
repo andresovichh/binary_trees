@@ -12,8 +12,8 @@ if (!tree)
 return (0);
 
 if (tree->left)
-counter = binary_tree_size(tree->left) + 1;
+counter += binary_tree_size(tree->left);
 if (tree->right)
-counter = binary_tree_size(tree->right) + 1;
-return (counter);
+counter += binary_tree_size(tree->right);
+return (counter + 1);
 }
